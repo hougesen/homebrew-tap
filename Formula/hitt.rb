@@ -5,16 +5,16 @@ class Hitt < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/hougesen/hitt/releases/download/v0.0.13/hitt-aarch64-apple-darwin.tar.gz"
-      sha256 "47e403b634a7b997759e25f4d57ba3ce73c7affbcd4373922d0e68c8a283b3c0"
+      sha256 "a3b68c019689803b579d2acc45c37a6dfa8faedffca471bde12a0ab4b8835738"
     end
     if Hardware::CPU.intel?
       url "https://github.com/hougesen/hitt/releases/download/v0.0.13/hitt-x86_64-apple-darwin.tar.gz"
-      sha256 "231e8e3882b9c1a4c12db9aff08c99c7d287f71b355d6f89529dae0de1195726"
+      sha256 "1e44b28a3c0b5fbe10cc69c2dd547ad06e247095384a74e3c07601f114e5ac80"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/hougesen/hitt/releases/download/v0.0.13/hitt-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "a774ebe7bb9686c8c136d1b58d8080262ed4c96e07ecc970458ed697b48999c5"
+    sha256 "0b19e5c2397897c895f3fe0c500ca0102d87085b592424856c3f0058823fb422"
   end
   license "MIT"
 
