@@ -1,20 +1,20 @@
 class Mdsf < Formula
   desc "Format, and lint, markdown code snippets using your favorite tools"
   homepage "https://github.com/hougesen/mdsf"
-  version "0.8.2"
+  version "0.8.3"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/mdsf/releases/download/v0.8.2/mdsf-aarch64-apple-darwin.tar.gz"
-      sha256 "37d157dab2b6fb03bf863bc23accd7ef57e4ada638f8f6b7e5782bef6e08ea1e"
+      url "https://github.com/hougesen/mdsf/releases/download/v0.8.3/mdsf-aarch64-apple-darwin.tar.gz"
+      sha256 "d23b37e3df34f1771dc16213dbfecd45fd16149194662a69f4d1a4045888a869"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/mdsf/releases/download/v0.8.2/mdsf-x86_64-apple-darwin.tar.gz"
-      sha256 "fef40c862f9f5f75a139a534e137b375ae166accbaa276d1a25f49afc97d390f"
+      url "https://github.com/hougesen/mdsf/releases/download/v0.8.3/mdsf-x86_64-apple-darwin.tar.gz"
+      sha256 "f1498461166dd09f6c44367116484ba499d166304ba9b973f426148f58fb9fe6"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/hougesen/mdsf/releases/download/v0.8.2/mdsf-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "eefbaf6552ac4f036022170c96eb601754b19ab46e1028338be70c3e7ca09105"
+    url "https://github.com/hougesen/mdsf/releases/download/v0.8.3/mdsf-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "e994f7e457ee396d7e844a36fd69cc249a5845a5141288aeb0224379b1188873"
   end
   license "MIT"
 
