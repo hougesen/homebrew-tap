@@ -1,20 +1,20 @@
 class Hitt < Formula
   desc "Command line HTTP testing tool focused on speed and simplicity"
   homepage "https://hitt.mhouge.dk"
-  version "0.0.20"
+  version "0.0.21"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/hitt/releases/download/v0.0.20/hitt-aarch64-apple-darwin.tar.gz"
-      sha256 "6dad182398bc6a7c29306edca6446a4ce8238eb34d7ccf4784e435a729bec4b3"
+      url "https://github.com/hougesen/hitt/releases/download/v0.0.21/hitt-aarch64-apple-darwin.tar.gz"
+      sha256 "0caefcdacf4932393ad7403c895fc641bb3d2832de9db0d9325c960d87217391"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/hitt/releases/download/v0.0.20/hitt-x86_64-apple-darwin.tar.gz"
-      sha256 "f02a7fca1d75cbabaa9c414b54a1ef3e1d6d7144b62517731dff533e4e04d232"
+      url "https://github.com/hougesen/hitt/releases/download/v0.0.21/hitt-x86_64-apple-darwin.tar.gz"
+      sha256 "c5c635896cdb0e7a8c06484efe84b68e9195c19f8381b0ea978a7e0a0c0c53cf"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/hougesen/hitt/releases/download/v0.0.20/hitt-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "b1250781502297d8e73fbc242745b543def8c789d1ce8dc0023eb0f7a6ff477e"
+    url "https://github.com/hougesen/hitt/releases/download/v0.0.21/hitt-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "6673e704bf16dfbfda701dc8352900b47ef6731915b5bcf67bba507038d2b734"
   end
   license "MIT"
 
