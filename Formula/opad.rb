@@ -1,25 +1,25 @@
 class Opad < Formula
   desc "Easily manage package version across multiple package manager systems in mono repositories"
   homepage "https://github.com/hougesen/opad?tab=readme-ov-file"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/opad/releases/download/v0.1.0/opad-aarch64-apple-darwin.tar.xz"
-      sha256 "a642d50f6f45a77783dbb0e3f49be4ab167c10252fd47e9b2431647ad65f2ebd"
+      url "https://github.com/hougesen/opad/releases/download/v0.1.1/opad-aarch64-apple-darwin.tar.xz"
+      sha256 "c8906aa41f34fd5488232dbb8b868636bbe30bdc8a568b6d61ac463d3adeb519"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/opad/releases/download/v0.1.0/opad-x86_64-apple-darwin.tar.xz"
-      sha256 "0f967ba8691a31c6c85e511705411a3dd763962b636642e659cfef8733c5c858"
+      url "https://github.com/hougesen/opad/releases/download/v0.1.1/opad-x86_64-apple-darwin.tar.xz"
+      sha256 "eb24b78011c9597937146e16403e47b419c1a1f824ec1d36be59a4d720a0f380"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/opad/releases/download/v0.1.0/opad-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "706789f83305551ff8c27a6fcc25b24687ae0f8626efd9541414bcaae8bf5000"
+      url "https://github.com/hougesen/opad/releases/download/v0.1.1/opad-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "d8d873e95169a5dee4ffdd80e4a9f3da24bc5d3cbe408315ffa8f2fbc9fd3d08"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/opad/releases/download/v0.1.0/opad-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "3d8990007131eea9950d45615efcd9b431f616c780e5e273c21f8f6b7d252f31"
+      url "https://github.com/hougesen/opad/releases/download/v0.1.1/opad-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "265b99bc7d237df3462243da4deec6afe926723757c8dc56d3933a71e868906c"
     end
   end
   license "MIT"
