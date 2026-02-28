@@ -1,25 +1,25 @@
 class Kdlfmt < Formula
   desc "A code formatter for kdl documents."
   homepage "https://github.com/hougesen/kdlfmt?tab=readme-ov-file"
-  version "0.1.5"
+  version "0.1.6"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.5/kdlfmt-aarch64-apple-darwin.tar.xz"
-      sha256 "4aa03faaeb40e1ac3266257b711e79cea10975b375aa537e6c88364070a47c9e"
+      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.6/kdlfmt-aarch64-apple-darwin.tar.xz"
+      sha256 "1f7d824f8fbe5b8fd32f8e3b3092b005fbb9c1b675de039f43b3df40a7e53263"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.5/kdlfmt-x86_64-apple-darwin.tar.xz"
-      sha256 "5812a5fb09e79784a5f865a75776dccf0abe0f063c868646bea49249aa17d91b"
+      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.6/kdlfmt-x86_64-apple-darwin.tar.xz"
+      sha256 "466ac93f519b264a4cf6c270504601688029b47a2aa0a216ad49f106630e2fa8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.5/kdlfmt-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3ab38ceb156db990a2b09ce844fc18ac9db1689159a2af4c8dbc0906c46d76b0"
+      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.6/kdlfmt-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4fb01630dbf51f92e938f5711fd0ec2a04ea14f026afa324f6c3bab9cc2968ee"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.5/kdlfmt-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "05edabaf7e1976d5f43c432abab3ad61a12e6e1ade0565db4a3781bad8e71212"
+      url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.6/kdlfmt-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "5a80935cffe5503aeff27780bd68c0a2d64ceb25c932418784ac4ef288019bdb"
     end
   end
   license "MIT"
