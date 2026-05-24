@@ -5,16 +5,16 @@ class Mdsf < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-aarch64-apple-darwin.tar.gz"
-      sha256 "e3020fe43aa2893c69bb1ae060317b39bc5c1063cb9e931121780464af86174b"
+      sha256 "91f46b517bf3547190fcadf6ad1f4e4b177ff1abc7fd720f4df285c910e4f0fe"
     end
     if Hardware::CPU.intel?
       url "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-x86_64-apple-darwin.tar.gz"
-      sha256 "0153390ad152a4b253cd74abb1b49ae4cab52ea2d7c912b55e4982b5176afcd9"
+      sha256 "ab3990678f514a45719b14d18ba53b87414ddca8f7ff0d33262371f20d8fea6f"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
     url "https://github.com/hougesen/mdsf/releases/download/v0.12.1/mdsf-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "3edde002f93b6ed4a783f2e84830c558e44a476e0e5a624d63845069fe7cbba0"
+    sha256 "adba0ac7765458ac76901fbc9952c7006842ac233ee5565702cfa0aea39cace5"
   end
   license "MIT"
 
