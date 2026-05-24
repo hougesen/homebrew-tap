@@ -5,21 +5,21 @@ class Kdlfmt < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-aarch64-apple-darwin.tar.xz"
-      sha256 "65aa6861011bbc8be88bfc9b732ad60b891c7bc14d49239faf6782a1a2685ff3"
+      sha256 "286170db398d3d2bb35eac0dc02d0585a56b05427b65ebb1a38835ab3a51663e"
     end
     if Hardware::CPU.intel?
       url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-x86_64-apple-darwin.tar.xz"
-      sha256 "462adef923e0c6811448658ccd3808b08e1ab8067af2f36b5fa32c80e856ae39"
+      sha256 "5254b7b5e0f13c02929c9463d8cfbc195b06bca170611fac404e7c56bc03845f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c03084c19872836cbcbe6ad01f4546586297c9b3daf309ac24964572ef00023a"
+      sha256 "2ddbcc630e6a8d93b900fb5252b5182736064fc03f3876fbf8544b9d94f0fb70"
     end
     if Hardware::CPU.intel?
       url "https://github.com/hougesen/kdlfmt/releases/download/v0.1.7/kdlfmt-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "c9479917d0610f3a9ae968caed9218f3df6ba30a71857f5a1e2e1ecbdc9d9e14"
+      sha256 "b1308797646f4e4cbe254c5eb27779bf6450e5386e2644acc46c5b7316783ab9"
     end
   end
   license "MIT"
